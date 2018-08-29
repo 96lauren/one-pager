@@ -3,7 +3,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: cover;
 	background-color: rgba(0,0,0,0.9);
-	font-family: "raleway";
+	font-family: 'Roboto Condensed', sans-serif;
 }
 header{
 	background-image: linear-gradient(maroon,magenta);
@@ -68,4 +68,9 @@ button{
 	margin:0 auto;
 	color: #fff; 
 	font-size: 10px;
+}
+#contacts{
+	background-color: purple;
+	width: 100%;
+	min-height: 200px;
 }

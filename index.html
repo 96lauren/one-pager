@@ -6,15 +6,23 @@
      <link rel="stylesheet" type="text/css" href="css/main.css">
      <link rel="stylesheet" type="text/css" href="css/normalize.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script >
        $(document).ready(function(){
-          $("button").click(function(){
-            $("p").hide();
-
-          });
-       });
+    $("#hide").click(function(){
+        $("p,#hide").hide();
+        $("#show").show();
+        
+    });
+    $("#show").click(function(){
+    
+        $("p,#hide").show();
+        $("#show").hide();
+    });
+});
      </script>
 
 </head>
@@ -22,9 +30,11 @@
       <header>
         <b style="float: left;">S . Lauren</b>
         <nav>
+          <a href="#contacts">Contacts</a>
           <a href="resume.html">Resume</a>
           <a href="#about">About</a>
           <a href="index.html">Home</a>
+          
 
         </nav>
       </header>
@@ -43,7 +53,8 @@
                 </p>
                 
                 <hr style="margin-left: 130px;"><span>lauren sambu</span><hr><br>
-                <button> less</button>
+                <button id="hide"> less</button>
+                <button id="show"> More</button>
               </div>
             
           </div>
@@ -66,10 +77,12 @@
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
    
-</div>
+
     </body>
-    <footer class="contacts">
+    <footer id="contacts">
+      <a href="https://www.facebook.com/lauren.sambu.7" target="_blank"><i class="fa fa-facebook" style="float: left;"></i></a>
       
     </footer>
+    </div>
 
 </html>
