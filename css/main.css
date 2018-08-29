@@ -1,0 +1,71 @@
+body{
+	background-image:url(../images/rustic.jpg); 
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-color: rgba(0,0,0,0.9);
+	font-family: "raleway";
+}
+header{
+	background-image: linear-gradient(maroon,magenta);
+	min-height: 100px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 200%;
+
+}
+b{
+	color: #fff;
+	padding: 10px;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	float: right;
+	font-size: 15px;
+	width:50px;
+	height: 35px;
+	margin-top: 40px;
+	line-height: 200%;
+	padding: 10px;
+}
+a:hover{
+	background-color: orange;
+}
+a:active{
+
+}
+
+.container{
+	width: 1000px;
+	background-image: linear-gradient(magenta,purple);
+	padding-top:40px; 
+	padding-bottom:40px;
+	margin: 0 auto;
+	margin-top: 100px;
+	
+
+
+}
+.content{
+	background-color: #fff;
+	padding: 20px;
+	color:#808080;
+	margin: 0 auto;
+	width: 700px;
+}
+hr{
+	width: 25%;
+	float: left;
+}
+
+span{
+	float: left;
+	padding: 0 10px 0 10px;
+}
+button{
+	/*background-image: linear-gradient(magenta,purple);*/
+	background-color: maroon;
+	margin:0 auto;
+	color: #fff; 
+	font-size: 10px;
+}
