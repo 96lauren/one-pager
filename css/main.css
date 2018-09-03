@@ -4,12 +4,13 @@ body{
 	background-position: cover;
 	background-color: rgba(0,0,0,0.9);
 	font-family: 'Roboto Condensed', sans-serif;
-	width: 100%;
+	overflow-x: hidden;
+
 }
 header{
 	background-image: linear-gradient(black,magenta,black);
 	min-height: 100px;
-	text-align: center;
+	text-align: center; 
 	font-size: 30px;
 	line-height: 200%;
 
