@@ -4,7 +4,7 @@ body{
 	background-position: cover;
 	background-color: rgba(0,0,0,0.9);
 	font-family: 'Roboto Condensed', sans-serif;
-	overflow-x: hidden;
+	overflow-x: hidden;s
 
 }
 header{
@@ -55,7 +55,6 @@ a:active{
 
 }
 .content{
-	/*background-color: #fff;*/
 	padding: 20px;
 	color:#808080;
 	margin: 0 auto;
@@ -73,7 +72,8 @@ span{
 .major{
 	width: 100%;
 	padding:40px; 
-	margin-bottom: 50px;
+	margin-bottom: 200px;
+	text-align: justify;
 
 }
 .book{
@@ -86,6 +86,7 @@ span{
 	border-style: double;
 	border-color: #808080;
 	float: left;
+	text-align: justify;
 }
 .phones{
 	width: 150px;
@@ -133,4 +134,17 @@ span{
 	line-height: 200%;
 	margin: 0 auto;
 	border-radius: 4px;
+}
+.breaker{
+	width:700px;
+	min-height: 40px;
+	background-color: rgba(255,0,255,0.2);
+	margin: 0 auto;
+	/*transform: skew(-40deg);*/
+	clear: left;
+	margin-top: 400px; 
+	text-align: center;
+	color: #fff;
+	line-height: 200%;
+
 }
